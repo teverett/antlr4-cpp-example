@@ -1,3 +1,3 @@
-java -jar antlr-4.7-complete.jar -Dlanguage=Cpp -o output/ modelica.g4 
+java -jar antlr-4.7-complete.jar -Dlanguage=Cpp -o generated/ modelica.g4 
  
 
