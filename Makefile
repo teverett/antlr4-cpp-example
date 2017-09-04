@@ -3,10 +3,11 @@ JAVA=/usr/bin/java
 OUTPUT=output
 GENERATED=generated
 GRAMMAR=modelica.g4
+RUNTIME=runtime-osx
 CC=g++
-CCARGS=-c -I runtime/antlr4-runtime/ -std=c++11	
+CCARGS=-c -I $(RUNTIME)/antlr4-runtime/ -std=c++11	
 LDARGS=-g
-LIBS=runtime/lib/libantlr4-runtime.a
+LIBS=$(RUNTIME)/lib/libantlr4-runtime.a
 
 
 all: hello
