@@ -3,12 +3,13 @@ JAVA=/usr/bin/java
 OUTPUT=output
 GENERATED=generated
 GRAMMAR=modelica.g4
+
+# here is where you plug in the runtime for your OS
 RUNTIME=runtime-osx
 CC=g++
 CCARGS=-c -I $(RUNTIME)/antlr4-runtime/ -std=c++11	
 LDARGS=-g
 LIBS=$(RUNTIME)/lib/libantlr4-runtime.a
-
 
 all: hello
 
@@ -30,5 +31,3 @@ dirs:
 clean:
 	rm -rf $(OUTPUT)
 	rm -rf $(GENERATED)
-
-
