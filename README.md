@@ -1,3 +1,5 @@
+![CI](https://github.com/teverett/antlr4-cpp-example/workflows/CI/badge.svg)
+
 # Antlr4 C++ Example
 
 A simple example of using [Antlr4](http://www.antlr.org/) to generate a C++ Parser / Lexer, for [Modelica](https://www.modelica.org/).  The Modelica grammar for Antlr4 is from [here](https://github.com/antlr/grammars-v4/tree/master/modelica).
